@@ -1,0 +1,112 @@
+body {
+  font-family: "Trebuchet MS", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.grocery-list {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  position: relative;
+  padding-top: 10px;
+}
+
+button.edit,
+button.remove {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.fa-edit {
+  color: #1ed633;
+}
+.fa-trash-alt {
+  color: #ca1b1b;
+}
+button.edit:hover .fa-edit,
+button.remove:hover .fa-trash-alt {
+  color: #333;
+}
+button.edit,
+button.remove {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+button.remove {
+  margin-right: 40px;
+  color: red;
+}
+.clear-button {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  justify-content: center;
+  background-color: white;
+  color: red;
+  border: red 1px solid;
+  border-radius: 4px;
+  letter-spacing: 3px;
+}
+
+.clear-button:hover {
+  background-color: red;
+  color: white;
+}
+.clear {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addbutton {
+  position: absolute;
+  margin-left: 20px;
+  min-width: 100px;
+}

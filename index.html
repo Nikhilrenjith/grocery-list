@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grocery List</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <h1>Grocery Bud</h1>
+    <div class="grocery-list">
+      <input type="text" id="item" placeholder="Enter item" />
+      <button onclick="addItem()" class="addbutton">Submit</button>
+      <ul id="list"></ul>
+      <div class="clear">
+        <button onclick="clearItems()" class="clear-button">Clear All</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
